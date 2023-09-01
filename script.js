@@ -1,4 +1,4 @@
-// 
+// here we are starting our Java Script.
 const card = document.getElementById('userCard');
 const profilePicture = document.getElementById('profilePicture');
 const username = document.getElementById('username');
