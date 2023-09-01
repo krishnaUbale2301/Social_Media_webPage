@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Random User Profile</title>
+</head>
+<body>
+    <div class="toggle"><button  id="toggleButton" onclick="myFunction()">Dark Mode</button></div>
+    <div class="logo">
+    <img  src="dark-logo.png" alt="Logo">
+    </div>
+    <p class="heading">Social Media Web page</p>
+    <div class="container">
+        <div class="card" id="userCard">
+            <div class="profile-picture">
+                <img src="placeholder.jpg" alt="Profile Picture" id="profilePicture">
+            </div>
+            <div class="user-info">
+                <h2 class="username" id="username">Loading...</h2>
+                <p class="full-name" id="fullName"></p>
+                <p class="gender" id="gender"></p>
+                <p class="dob" id="dob"></p>
+                <p class="address" id="address"></p>
+                <p class="email" id="email"></p>
+            </div>
+        </div>
+        <button class="fbutton" id="fetchButton">Fetch New User</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

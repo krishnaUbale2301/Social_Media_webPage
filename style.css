@@ -1,0 +1,180 @@
+/*Here we are Styling to our Body*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #3aafa9;    
+    background-size: auto;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*styling toggle */
+.toggle{
+    background-color: balck;
+    margin: 30px;
+    position:absolute;
+    top:0;
+    right:0;
+}
+
+/*styleing the toggle button*/
+#toggleButton{
+    /*margin-top: 20px;*/
+    padding: 14px 20px;
+    margin-top:15px;
+    background-color: black ;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/*Hover the button*/
+#togglebutton:hover {
+    background-color: #0056b3;
+}
+
+/*aligning the text in the container*/
+.container {
+    text-align: center;
+}
+
+/*now we are Designing the card */
+.card {
+    background-color: rgba(255, 255, 255, 0.2); 
+    border-radius: 10px;
+    box-sizing: content-box;
+    box-shadow: 20px 10px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/*Styling to profile picture*/
+.profile-picture img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    z-index: 10;
+    border: 3px solid white;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+/*Designing now our username*/
+.username {
+    font-size: 24px;
+    margin-top: 20px ;
+    margin-bottom: 50px; 
+    color: #feffff;
+    font-family: serif;
+    z-index: 10;
+}
+
+/*we are designing all other infomation text in one block of code*/
+.full-name, .gender, .dob, .address, .email {
+    font-size: 17px;
+    margin: 3px 0;
+    color:white;
+    font-family: serif;
+    z-index: 10;
+    font-weight: bold;
+}
+
+/*here we have designed the fetch button*/
+.fbutton {
+    margin-top: 60px;
+    padding: 10px 20px;
+    background-color: #def2f1;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: 3px solid white;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.fbutton:hover {
+    background-color: #349d98;
+}
+
+/*here designed the dark mode background for the body*/
+.dark-mode {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #17242a;
+    background-size: auto;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*here we designed the dark mode for card */
+.card-toggle {
+    flex-direction: row;
+    background-color: rgba(255, 255, 255, 0.3); 
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    box-shadow: 10px 10px 5px #3F4345;
+}
+
+/*this will use for to change the text in dark theme*/
+.dark-name{
+    color: white;
+    font-family: serif;
+}
+
+/*here we styling the heading of our web page*/
+.heading {
+  position: fixed;
+  top: 10px;
+  left: 90px;
+  font-size: 40px;
+  background-color: transparent; 
+  color: #fff;
+  padding: 10px; 
+  margin-top: 25px; 
+  font-family: serif;
+
+}
+
+/*designed the logo image for diplaying the logo*/
+.logo img{
+    width: 100px;
+    height:50px;
+    position: absolute;
+    top: 30px;
+    left: 3px;
+    margin:20px;
+
+}
